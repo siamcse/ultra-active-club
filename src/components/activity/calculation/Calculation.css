@@ -16,12 +16,19 @@
     padding: 15px;
     border-radius: 20px;
 }
+.time-bg span{
+    color: gray;
+    padding-left: 30px;
+}
 .complete-btn{
     width: 80%;
     margin: 0 30px;
     border-radius: 20px;
     border: none;
-    background: rgb(120, 120, 255);
+    background: rgb(11, 128, 186);
     color: white;
     cursor: pointer;
+}
+.buttonTrue{
+    background-color: aqua;
 }

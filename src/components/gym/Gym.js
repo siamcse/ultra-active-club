@@ -5,21 +5,27 @@ import './Gym.css'
 
 const Gym = () => {
     const [exercises, setExercise] = useState([]);
+    const [time,setTime] = useState(0);
     useEffect(()=>{
         fetch('exercises.json')
         .then(res => res.json())
         .then(data => setExercise(data))
     },[])
-    console.log(exercises);
+    const handleAddToList = (selectTime) =>{
+        setTime(time + selectTime);
+    }
     return (
         <div className='gym-container'>
             <div className="exercise-container">
                 {
-                    exercises.map(exercise => <Exercise exercise={exercise} key={exercise.id}></Exercise>)
+                    exercises.map(exercise => <Exercise exercise={exercise} 
+                    key={exercise.id}
+                    handleAddToList={handleAddToList}
+                    ></Exercise>)
                 }
             </div>
             <div className="activity-container">
-                <Activity></Activity>
+                <Activity time={time}></Activity>
             </div>
         </div>
     );

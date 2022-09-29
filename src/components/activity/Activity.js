@@ -3,11 +3,11 @@ import Calculation from './calculation/Calculation';
 import Profile from './profile/Profile';
 import './Activity.css';
 
-const Activity = () => {
+const Activity = ({time}) => {
     return (
         <div className='activity'>
             <Profile></Profile>
-            <Calculation></Calculation>
+            <Calculation time={time}></Calculation>
         </div>
     );
 };
