@@ -9,7 +9,7 @@ const Exercise = ({exercise, handleAddToList}) => {
         <div className='exercise'>
             <img src={image} alt="" />
             <div className='exercise-info'>
-                <h3 className='exercise-title'>Name: {name}</h3>
+                <h3 className='exercise-title'>{name}</h3>
                 <p>Description: {description? description.slice(0,80)+"...":"Not availabe"}</p>
                 <p>For Age: 20-60</p>
                 <p>Time Required: {time}s</p>
