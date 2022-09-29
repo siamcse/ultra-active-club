@@ -1,0 +1,10 @@
+.question{
+    margin: 20px 100px;
+}
+.faq-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.question article{
+    margin-top: 0px;
+}

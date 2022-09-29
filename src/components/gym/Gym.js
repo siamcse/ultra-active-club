@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../activity/Activity';
 import Exercise from '../exercise/Exercise';
+import Header from '../header/Header';
+import Question from '../question/Question';
 import './Gym.css'
 
 const Gym = () => {
@@ -16,13 +18,17 @@ const Gym = () => {
     }
     return (
         <div className='gym-container'>
-            <div className="exercise-container">
-                {
+            <div>
+                <Header></Header>
+                <div className="exercise-container">
+                    {
                     exercises.map(exercise => <Exercise exercise={exercise} 
                     key={exercise.id}
                     handleAddToList={handleAddToList}
                     ></Exercise>)
                 }
+                </div>
+                <Question></Question>
             </div>
             <div className="activity-container">
                 <Activity time={time}></Activity>

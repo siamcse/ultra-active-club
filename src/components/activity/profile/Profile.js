@@ -22,7 +22,7 @@ const Profile = () => {
                     <p>Weight</p>
                 </div>
                 <div>
-                    <p><span className='info-number'>5.6</span></p>
+                    <p><span className='info-number'>5.6</span>ft</p>
                     <p>Height</p>
                 </div>
                 <div>
