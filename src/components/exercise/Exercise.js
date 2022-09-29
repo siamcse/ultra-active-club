@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import './Exercise.css';
 
 const Exercise = ({exercise, handleAddToList}) => {
@@ -15,6 +17,7 @@ const Exercise = ({exercise, handleAddToList}) => {
             </div>
             <button onClick={()=>handleAddToList(time)} className='add-btn'>
                 <p>Add to List</p>
+                <FontAwesomeIcon icon={faCartPlus}/>
             </button>
         </div>
     );
