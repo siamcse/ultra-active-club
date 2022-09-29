@@ -45,7 +45,7 @@ const Calculation = ({time}) => {
             <div>
                 <h2>Exercise Details</h2>
                 <h3 className='time-bg'>Exercise time <span>{time}s</span></h3>
-                <h3 className='time-bg'>Break time <span>{breakTime}s</span></h3>
+                <h3 className='time-bg'>Break time <span>{breakTime?breakTime:0}s</span></h3>
             </div>
             <button onClick={notify} className='complete-btn'>
                 <p>Activity Completed</p>
