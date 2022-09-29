@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Push Up",
+        "time": 30,
         "mainMuscles": "Chest",
         "secondaryMuscles": "Triceps",
         "image": "data/images/pushup.png",
@@ -10,6 +11,7 @@
     {
         "id": 2,
         "name": "Pull Up",
+        "time": 40,
         "mainMuscles": "Lats",
         "secondaryMuscles": "Biceps",
         "image": "data/images/pullup.png",
@@ -18,6 +20,7 @@
     {
         "id": 3,
         "name": "Leg Raise",
+        "time": 50,
         "mainMuscles": "Abdominals",
         "secondaryMuscles": "Hip Flexor",
         "image": "data/images/legraise.png",
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "name": "Bridge",
+        "time": 45,
         "mainMuscles": "Spine Erectors",
         "secondaryMuscles": "Rear Shoulders",
         "image": "data/images/bridge.png",
@@ -34,6 +38,7 @@
     {
         "id": 5,
         "name": "Handstand Push Up",
+        "time": 35,
         "mainMuscles": "Shoulders",
         "secondaryMuscles": "Traps",
         "image": "data/images/handstandpushup.png",
@@ -42,6 +47,7 @@
     {
         "id": 6,
         "name": "Squat",
+        "time": 45,
         "mainMuscles": "Legs",
         "secondaryMuscles": "Abdominals",
         "image": "data/images/squat.png",

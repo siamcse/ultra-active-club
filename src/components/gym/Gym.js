@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../activity/Activity';
 import Exercise from '../exercise/Exercise';
 import './Gym.css'
 
@@ -18,7 +19,7 @@ const Gym = () => {
                 }
             </div>
             <div className="activity-container">
-                <h2>Activity</h2>
+                <Activity></Activity>
             </div>
         </div>
     );
