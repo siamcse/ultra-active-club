@@ -1,10 +1,13 @@
 import React from 'react';
-import Profile from '../profile/Profile';
+import Calculation from './calculation/Calculation';
+import Profile from './profile/Profile';
+import './Activity.css';
 
 const Activity = () => {
     return (
-        <div>
+        <div className='activity'>
             <Profile></Profile>
+            <Calculation></Calculation>
         </div>
     );
 };

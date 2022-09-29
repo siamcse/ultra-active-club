@@ -1,0 +1,13 @@
+.break-time{
+    background: rgb(240, 235, 227);
+    padding: 15px 0;
+    border-radius: 20px;
+}
+.break-time button{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

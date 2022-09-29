@@ -1,0 +1,28 @@
+.person{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.person img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.person-info{
+    line-height: 10px;
+}
+.address{
+    margin-left: 5px;
+}
+.person-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(240, 235, 227);
+    border-radius: 20px;
+    line-height: 10px;
+}
+.info-number{
+    font-size: 30px;
+    font-weight: 600;
+}
