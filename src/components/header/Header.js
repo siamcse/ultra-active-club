@@ -15,9 +15,6 @@ const Header = () => {
                 <a href="/login">Login</a>
             </div>
         </nav>
-        <header>
-            <h2>Select your exercise</h2>
-        </header>
         </div>
     );
 };

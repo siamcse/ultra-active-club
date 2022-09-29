@@ -4,6 +4,7 @@
     border: 1px solid black;
     border-radius: 8px;
     position: relative;
+    margin-top: 50px;
 }
 .exercise img{
     width: 286px;
