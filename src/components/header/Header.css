@@ -1,23 +1,16 @@
 .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 100px;
+    margin-top: 20px;
+    padding: 0 50px;
     
 }
 .navbar-logo{
     display: flex;
-    color: black;
+    align-items: center;
     cursor: pointer;
 }
 .navbar img{
     width: 64px;
     height: 64px;
     margin-right: 10px;
-}
-.navbar-link a{
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
-    font-weight: bold;
+    border-radius: 15%;
 }

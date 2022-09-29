@@ -12,12 +12,26 @@
     height: 100vh;
     position: sticky;
     top: 5%;
-    border: 2px solid salmon;
     padding: 10px;
-    border-radius: 10px;
     min-width: 300px;
 }
 @media screen and (max-width: 992px) {
+    .gym-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .exercise-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .activity-container {
+        padding: 0 50px;
+        position: static;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
     .exercise-container{
         grid-template-columns: repeat(2,1fr);
     }
@@ -30,8 +44,10 @@
     }
     .exercise-container {
         grid-template-columns: repeat(1, 1fr);
+        
     }
-    .activity-container{
+    .activity-container {
+        padding: 0 20px;
         position: static;
         height: auto;
     }
