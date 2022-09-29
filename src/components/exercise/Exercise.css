@@ -1,0 +1,8 @@
+.exercise{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.exercise img{
+    width: 286px;
+    height: 286px;
+}
