@@ -11,7 +11,7 @@
 .activity-container{
     height: 100vh;
     position: sticky;
-    top: 0;
+    top: 5%;
     border: 2px solid salmon;
     padding: 10px;
     border-radius: 10px;
@@ -25,10 +25,14 @@
 @media screen and (max-width: 576px) {
     .gym-container{
         grid-template-columns: none;
-        grid-auto-flow: dense;
-        
+        display: flex;
+        flex-direction: column-reverse;   
     }
     .exercise-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .activity-container{
+        position: static;
+        height: auto;
     }
 }
