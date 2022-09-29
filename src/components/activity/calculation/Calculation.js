@@ -15,9 +15,12 @@ const Calculation = () => {
             </div>
             <div>
                 <h2>Exercise Details</h2>
-                <h3>Exercise time </h3>
-                <h3>Break time </h3>
+                <h3 className='time-bg'>Exercise time </h3>
+                <h3 className='time-bg'>Break time </h3>
             </div>
+            <button className='complete-btn'>
+                <p>Activity Completed</p>
+            </button>
         </div>
     );
 };

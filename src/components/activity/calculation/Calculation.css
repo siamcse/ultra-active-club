@@ -11,3 +11,17 @@
     font-size: 20px;
     cursor: pointer;
 }
+.time-bg{
+    background: rgb(240, 235, 227);
+    padding: 15px;
+    border-radius: 20px;
+}
+.complete-btn{
+    width: 80%;
+    margin: 0 30px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(120, 120, 255);
+    color: white;
+    cursor: pointer;
+}
